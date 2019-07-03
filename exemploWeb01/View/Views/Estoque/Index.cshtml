@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        div{background-color: cadetblue;
+            width: 321px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="/estoque/cadastro">Cadastro Estoque</a>
+        <table>
+            <thead> 
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                    <th>Ação</a>
+                </tr>
+            </thead>
+
+            <tbody>
+                @for (int i = 0; i < ViewBag.Estoques.Count; i++)
+                {
+                    <tr>
+                        <td>@ViewBag.Estoques[i].Id</td>
+                        <td>@ViewBag.Estoques[i].Nome</td>
+                        <td>@ViewBag.Estoques[i].Quantidade</td>
+                        <td>@ViewBag.Estoques[i].Valor</td>
+                        <td>
+                            <a href="/estoque/editar?id=@ViewBag.Estoques[i].Id">Editar</a>
+                            <a href="/estoque/apagar?id=@ViewBag.Estoques[i].Id">Apagar</a>
+
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                    <th>Ação</a>
+
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

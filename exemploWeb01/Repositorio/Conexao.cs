@@ -12,7 +12,7 @@ namespace Repositorio
         public SqlCommand Conectar()
         {
             SqlConnection connection = new SqlConnection();
-            connection.ConnectionString = @"";
+            connection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=T:\Documentos\NossoEstoque.mdf;Integrated Security=True;Connect Timeout=30";
             connection.Open();
 
             SqlCommand command = new SqlCommand();

@@ -148,3 +148,7 @@ T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\obj\Debug\V
 T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\obj\Debug\View.csproj.CopyComplete
 T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\obj\Debug\View.dll
 T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\obj\Debug\View.pdb
+T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\bin\Model.dll
+T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\bin\Repositorio.dll
+T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\bin\Model.pdb
+T:\Documentos\GitHub\entra21-019-exemplo-webCsharp\exemploWeb01\View\bin\Repositorio.pdb
