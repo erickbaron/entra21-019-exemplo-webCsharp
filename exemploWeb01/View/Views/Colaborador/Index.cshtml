@@ -2,16 +2,30 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
+    <style>
+        div{margin: 5px;}
+        button{margin-top: 5px;}
+    </style>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
 <body>
-    <div> 
-    </div>
+
+    <h1>oi</h1>
+    <form action="/colaborador/cadastro" method="post">
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" name="nome" id="campo-nome"/>
+        </div>
+        <div>
+            <label for="campo-sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="campo-sbrenome"/>
+        </div>
+        <button type="submit">Salvar</button>
+    </form>
+
 </body>
 </html>

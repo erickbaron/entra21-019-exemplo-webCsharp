@@ -14,11 +14,13 @@ namespace View.Controllers
             return View();
         }
 
-        public ActionResult Cadastro()
+        public ActionResult Cadastro(string nome, string sobrenome)
         {
+            string nomeCompleto = $"{nome} {sobrenome}";
+            ViewBag.NomeCompleto = nomeCompleto;
             return View();
         }
     }
 
-    
+
 }
