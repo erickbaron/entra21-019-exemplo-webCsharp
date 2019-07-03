@@ -11,6 +11,13 @@ namespace View.Controllers
         // GET: Estoque
         public ActionResult Index()
         {
+
+
+
+
+
+
+
             return View();
         }
     }
