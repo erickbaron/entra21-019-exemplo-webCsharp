@@ -6,6 +6,3 @@ CREATE TABLE estoques(
 	quantidade INT
 	
 );
-
-INSERT INTO estoques (nome, valor, quantidade)
-VALUES ('Biela', 150, 20)

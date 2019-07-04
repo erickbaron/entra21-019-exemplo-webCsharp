@@ -1,0 +1,80 @@
+﻿
+body {
+    background-color: #98befa;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    margin-left: 2.5%;
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+
+/*Coluno do cabeçalho e rodapé*/
+th {
+    background-color: darkblue;
+}
+/*Cada linha terá 30px de altura*/
+
+tr {
+    height:30px;
+    color: black;
+}
+
+/*Quando o usuario passar o mouse muda a cor*/
+tr, th {
+    border: 1px solid black;
+
+    /*Estiliza as bordas
+    border-top-color:red;
+    border-bottom-color:green;
+    border-left-color:deeppink;
+    border-right-color:deepskyblue;
+
+    border-top-style:dashed;
+    border-top-style:double;
+    border-top-style:ridge;
+    border-top-style:groove;*/
+}
+/*para cada elemento filho de uma tr que indice seja par, muda cor
+tr:nth-child(even) {
+    background-color: #3e6aad;*/
+}
+
+tr:hover {
+   background-color: #051630;
+   color: white;
+}
+
+#botao-cadastro {
+    background-color:#007bff ;/*cor de fundo*/
+    color:white;/*muda cor*/
+    padding: 5px;/**/
+    border-radius: 5px;/*arredonda div*/
+    text-decoration:none;/*tira hiperlink*/
+    font-weight: bold;/*texto em negrito*/
+    cursor: pointer;/*Muda cursor*/
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 2.5%;
+}
+
+#botao-tabela {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left:20%;
+}
+
+#botao-tabela:hover {
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid black;
+}
+

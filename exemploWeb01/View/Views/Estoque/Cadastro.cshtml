@@ -9,26 +9,29 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Cadastro</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/EstoqueCadastro.css" />
+
 </head>
 <body>
-    <div> 
-        <a href="/estoque">Lista de Estoque</a>
+    <div class="div-titulo"> 
+        <a class="titulo" href="/estoque" id="lista-estoque">Lista de Estoque</a>
         
     </div>
     <form action="/estoque/store" method="post">
-        <div>
-            <label for="campo-nome">Nome</label>
-            <input type="text" name="nome" id="campo-nome"/>
+        <div class="div-campo"  id="div-campo-nome">
+            <label for="campo-nome" class="label" >Nome</label>
+            <input type="text" name="nome" id="campo-nome" class="campo"/>
         </div>
-        <div>
-            <label for="campo-quantidade">Quantidade</label>
-            <input type="text" name="quantidade" id="campo-quantidade"/>
+        <div class="div-campo"  id="div-campo-quantidade">
+            <label for="campo-quantidade" class="label">Quantidade</label>
+            <input type="text" name="quantidade" id="campo-quantidade" class="campo"/>
         </div>
-        <div>
-            <label for="campo-valor">Valor</label>
-            <input type="text" name="valor" id="campo-valor" />
-        </div>
-            <button type="submit">Salvar</button>
+        <div class="div-campo" id="div-campo-valor">
+            <label for="campo-valor" class="label">Valor</label>
+            <input type="text" name="valor" id="campo-valor" class="campo" />
+         </div>
+            <button class="botao" type="submit">Salvar</button>
     </form>
 </body>
 </html>

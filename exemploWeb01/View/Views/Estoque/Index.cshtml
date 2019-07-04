@@ -9,15 +9,12 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-    <style>
-        div{background-color: cadetblue;
-            width: auto;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/EstoqueIndex.css" />
 </head>
 <body>
     <div>
-        <a href="/estoque/cadastro">Cadastro Estoque</a>
+        <a href="/estoque/cadastro" id="botao-cadastro" >Cadastro Estoque</a>
         <table>
             <thead> 
                 <tr>
@@ -38,8 +35,8 @@
                         <td>@ViewBag.Estoques[i].Quantidade</td>
                         <td>@ViewBag.Estoques[i].Valor</td>
                         <td>
-                            <a href="/estoque/editar?id=@ViewBag.Estoques[i].Id">Editar</a>
-                            <a href="/estoque/apagar?id=@ViewBag.Estoques[i].Id">Apagar</a>
+                            <a href="/estoque/editar?id=@ViewBag.Estoques[i].Id" id="botao-tabela">Editar</a>
+                            <a href="/estoque/apagar?id=@ViewBag.Estoques[i].Id" id="botao-tabela">Apagar</a>
 
                         </td>
                     </tr>

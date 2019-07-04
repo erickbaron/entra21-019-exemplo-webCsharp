@@ -1,0 +1,60 @@
+﻿body {
+    background-color: #98befa;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+#lista-estoque {
+    text-align: center;
+}
+
+.div-campo {
+    width: 95%;
+    margin-left: 1%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+
+}
+
+.campo {
+    width: 100%;
+    border-style: solid;
+    border-color: #a1a1a1;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.botao {
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #007bff;
+    margin-left:1.1%;
+}
+
+.botao:hover {
+    background-color: #3b9aff;
+    color: white;
+    border-color: #007bff;
+}
+
+.div-titulo {
+    background-color: black;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    color:white;
+    text-decoration: none;
+    height: 100%;
+    display: inline-block;
+    padding:10px;
+}
